@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Ravenfield.AiTick/Ravenfield.AiTick.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Ravenfield.AiTick.Tests/Ravenfield.AiTick.Tests.csproj" />
+  </Folder>
+</Solution>

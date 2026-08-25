@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <EnableNETAnalyzers>false</EnableNETAnalyzers>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\Ravenfield.AiTick\AiTickBudget.cs" Link="AiTickBudget.cs" />
+    <Compile Include="..\..\src\Ravenfield.AiTick\MutatorUpdateGate.cs" Link="MutatorUpdateGate.cs" />
+    <Compile Include="..\..\src\Ravenfield.AiTick\BakeCap.cs" Link="BakeCap.cs" />
+    <Compile Include="..\..\src\Ravenfield.AiTick\BakeLodPolicy.cs" Link="BakeLodPolicy.cs" />
+    <Compile Include="..\..\src\Ravenfield.AiTick\PlayerOnlyMutators.cs" Link="PlayerOnlyMutators.cs" />
+    <Compile Include="..\..\src\Ravenfield.AiTick\RemainsBudget.cs" Link="RemainsBudget.cs" />
+    <Compile Include="..\..\src\Ravenfield.AiTick\BloodDropBudget.cs" Link="BloodDropBudget.cs" />
+    <Compile Include="..\..\src\Ravenfield.AiTick\RagdollSettlePolicy.cs" Link="RagdollSettlePolicy.cs" />
+    <Compile Include="..\..\src\Ravenfield.AiTick\AmmoConservePolicy.cs" Link="AmmoConservePolicy.cs" />
+    <Compile Include="..\..\src\Ravenfield.AiTick\DefensiveCoverPolicy.cs" Link="DefensiveCoverPolicy.cs" />
+    <Compile Include="..\..\src\Ravenfield.AiTick\LethalityPolicy.cs" Link="LethalityPolicy.cs" />
+    <Compile Include="..\..\src\Ravenfield.AiTick\BoundingOverwatchPolicy.cs" Link="BoundingOverwatchPolicy.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>

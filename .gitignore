@@ -1,0 +1,16 @@
+**/bin/
+**/obj/
+.vs/
+.vscode/
+.idea/
+artifacts/
+*.user
+*.suo
+*.pdb
+*.log
+*.cfg
+*.bak
+*.backup-*
+Ravenfield.exe
+ravenfield_Data/
+BepInEx/
